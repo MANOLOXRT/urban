@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div style={{ backgroundColor: 'white' }}>
       
-      {/* SECCIÓN HERO (LA NEGRA) - Tamaño medio y corte limpio */}
+      
       <div style={{ 
         backgroundColor: '#111111', 
         color: 'white', 
@@ -17,7 +17,7 @@ const Home = () => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        border: 'none', // Sin bordes para corte limpio
+        border: 'none', 
         width: '100%'
       }}>
         <h1 style={{ 
@@ -69,30 +69,29 @@ const Home = () => {
         </button>
       </div>
 
-      {/* --- SECCIÓN DE CARACTERÍSTICAS (IGUAL A LA IMAGEN) --- */}
       <div style={{ 
         padding: '100px 20px', 
         display: 'flex', 
         justifyContent: 'center', 
-        gap: '60px', // Espacio entre columnas
+        gap: '60px', 
         textAlign: 'center',
-        backgroundColor: 'white' // Fondo blanco puro
+        backgroundColor: 'white'
       }}>
         
-        {/* COLUMNA 1: DISEÑO ÚNICO (Icono de Diana/Brújula) */}
+        
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', maxWidth: '300px' }}>
           
-          {/* Contenedor del Icono: Cuadrado Negro/Azul Marino Oscuro */}
+   
           <div style={{ 
-            backgroundColor: '#141A29', // Color oscuro exacto de la imagen
-            width: '80px', // Tamaño del cuadrado
+            backgroundColor: '#141A29', 
+            width: '80px', 
             height: '80px',
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            marginBottom: '30px' // Espacio con el título
+            marginBottom: '30px' 
           }}>
-            {/* SVG del Icono Line-Art Blanco (Diana/Brújula con Cruz) */}
+           
             <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="12" cy="12" r="10"></circle>
               <line x1="12" y1="2" x2="12" y2="22"></line>
@@ -119,10 +118,10 @@ const Home = () => {
           </p>
         </div>
         
-        {/* COLUMNA 2: CALIDAD PREMIUM (Icono de Check/Verificado) */}
+       
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', maxWidth: '300px' }}>
           
-          {/* Contenedor del Icono */}
+        
           <div style={{ 
             backgroundColor: '#141A29',
             width: '80px',
@@ -132,7 +131,7 @@ const Home = () => {
             alignItems: 'center',
             marginBottom: '30px'
           }}>
-            {/* SVG del Icono Line-Art Blanco (Check en círculo) */}
+            
             <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="12" cy="12" r="10"></circle>
               <polyline points="16 8 10 14 8 12"></polyline>
@@ -154,10 +153,9 @@ const Home = () => {
           </p>
         </div>
         
-        {/* COLUMNA 3: ENVÍO RÁPIDO (Icono de Rayo) */}
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', maxWidth: '300px' }}>
           
-          {/* Contenedor del Icono */}
+        
           <div style={{ 
             backgroundColor: '#141A29',
             width: '80px',
@@ -167,7 +165,7 @@ const Home = () => {
             alignItems: 'center',
             marginBottom: '30px'
           }}>
-            {/* SVG del Icono Line-Art Blanco (Rayo) */}
+          
             <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
               <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
               <polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polyline>
