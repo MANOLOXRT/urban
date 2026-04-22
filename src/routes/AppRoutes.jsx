@@ -1,4 +1,4 @@
-import React from 'react'; // <--- EL FALTANTE
+import React from 'react'; 
 import { Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Productos from '../pages/Productos';

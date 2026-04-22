@@ -1,4 +1,4 @@
-import React from 'react'; // <--- EL QUE FALTA
+import React from 'react'; 
 
 const Hero = () => {
   return (
